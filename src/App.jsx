@@ -7,7 +7,7 @@ function App() {
       <div className='app'>
           <Header />
           <Form />
-          <PackingList />
+          <List />
           <Stats />
       </div>
     </>
@@ -20,7 +20,7 @@ export default App
 function Header () {
   
   return (
-    <header>
+    <header className='header'>
       <h1>📋 CHECK LIST ✔️</h1>
     </header>
   )
@@ -48,7 +48,7 @@ function List () {
 function Stats () {
   return (
     <footer className='stats'>
-      <h3> Anything you need please add more 📝</h3>
+      <h3> Total </h3>
     </footer>
   )
 }
